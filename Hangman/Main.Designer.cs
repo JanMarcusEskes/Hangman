@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
 			this.gpbInput = new System.Windows.Forms.GroupBox();
 			this.btnZ = new System.Windows.Forms.Button();
 			this.btnA = new System.Windows.Forms.Button();
@@ -437,6 +438,7 @@
 			this.Controls.Add(this.gpbInput);
 			this.Controls.Add(this.menuStrip1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Main";
 			this.Text = "Hangman";
 			this.gpbInput.ResumeLayout(false);
